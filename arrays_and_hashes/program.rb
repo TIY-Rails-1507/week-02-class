@@ -21,7 +21,6 @@ savings = Account.new("888-12", 100)
 current = Account.new("888-13", 50)
 credit = Account.new("888-14", 500)
 
-
 bank.add_account(savings)
 bank.add_account(current)
 bank.add_account(credit)

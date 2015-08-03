@@ -5,18 +5,52 @@
 
 | Topic  | Start Time | End Time | Duration |
 | ------------- | ------------- | ------------- | ------------- |
-| 1. A bit of Git  | 18:00  | 18:10  | 10 min  |
-| 2. Recap of coursework from week 1  | 18:10  | 18:30  | 20 min  |
-| 3. Class attributes  | 18:30  | 18:50  | 20 min  |
+| A bit of Git  | 18:00  | 18:10  | 10 min  |
+| Recap of coursework from week 1  | 18:10  | 18:30  | 20 min  |
+| Class attributes  | 18:30  | 18:50  | 20 min  |
 | break  | 18:50  | 19:00  | 10 min  |
-| 4. Exception handling  | 19:00  | 19:30  | 30 min  |
+| Exception handling  | 19:00  | 19:30  | 30 min  |
 | break  | 19:30  | 19:35  | 5 min  |
-| 5. Arrays and Hashes  | 19:35  | 20:35  | 60 min  |
+| Arrays and Hashes  | 19:35  | 20:35  | 60 min  |
 | break  | 20:35  | 20:40  | 5 min  |
 | Q & A \ buffer  | 20:40  | 21:00  | 20 min  |
 
 
+## Actually covered on Monday
 
+| Topic  |
+| ------------- |
+| A bit of Git  |
+| Recap of coursework from week 1  |
+| Class attributes  |
+| Arrays and Hashes  |
+| Q & A  |
+
+## Topics left for homework from Monday
+
+| Topic  |
+| ------------- |
+| A bit of Git  |
+| Recap of coursework from week 1 - look in this repo for solutions |
+| Exception handling |
+
+## Homework
+General Ruby
+* Complete The Ruby Monk Primer - https://rubymonk.com/learning/books/1-ruby-primer
+
+Exception handling
+* Read: https://newcircle.com/bookshelf/ruby_tutorial/exceptions
+* Read the section below on exception handling 
+* Complete excercise 4.1
+
+Need help?
+* Ask on Slack
+* Read http://www.humblelittlerubybook.com/book/html/chapter3.html
+* Ask on Slack :)
+
+## Preperation for the next class
+
+Read: http://ruby.bastardsbook.com/chapters/io/
 
 ## 1. A bit of Git
 ### Git Aliases 
@@ -92,9 +126,16 @@ An interesting read - http://stackoverflow.com/a/2192010/259477
 
 ### Excercise
 4.1. Make the Account class throw an exception if we try to withdraw more money than is in the balance.
-Where should you handle the exception?
 
-Hint: Google how to raise exceptions
+To do this follow these steps:
+* Work on a fork of this repo
+* Go into the homework folder
+* Run the tests with ```ruby account_test``` - you should see one failure
+* Make that test pass by making the account class throw an exception if the withdraw method is called with more then the balance
+* Open main_har_coded.rb and follow the instructions
+* Open main_interactive.rb and follow the instructions
+* Ask on slack if you get stuck
+* Let us know on slack once you have completed and pushed your changes to GitHub
 
 ###### break
 
@@ -203,7 +244,7 @@ file.close
 ```
 Note: don't forget to use exception handling in this example
 
-Readline loads the entire file at once into memory. While this is fine for most applications, this is not good practice if the file is very large, especially if it is running on a server that is serving multiple users.
+Readline loads the entire file at once into memory. While this is fine for most applications, this is not good practice if the file is very large, especially if it is running on a server that is serving multiple users. - Ref http://ruby.bastardsbook.com/chapters/io/
 
 ### Excercises
 6.1. The anagram challange - http://codekata.com/kata/kata06-anagrams/
