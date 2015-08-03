@@ -10,8 +10,8 @@ class TestBank < MiniTest::Unit::TestCase
     
     # logic to tranfer money between accounts
     amount_to_trasfer = 20
-    current_account.withdraw(amount_to_trasfer)
-    savings_account.deposit(amount_to_trasfer)
+    bank = Bank.new
+    bank.transfer(current_account, savings_account, amount_to_trasfer)
     # end of logic to transfer money
 
     assert_equal(80, current_account.balance())
