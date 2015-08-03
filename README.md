@@ -1,5 +1,6 @@
 # Week 2
 
+Slack Channel - https://tiy-rails-1507.slack.com/messages/general/
 
 ## Rough plan for Monday
 
