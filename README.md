@@ -38,7 +38,8 @@ General Ruby
 * Complete The Ruby Monk Primer - https://rubymonk.com/learning/books/1-ruby-primer
 
 Exception handling
-* Read: http://www.humblelittlerubybook.com/book/html/chapter3.html (also good for general ruby)
+* Read: http://www.humblelittlerubybook.com/book/html/chapter3.html 
+** also good for general ruby
 * Read the section below on exception handling 
 * Complete excercise 4.1
 
