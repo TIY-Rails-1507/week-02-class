@@ -30,7 +30,6 @@
 
 | Topic  |
 | ------------- |
-| A bit of Git  |
 | Recap of coursework from week 1 - look in this repo for solutions |
 | Exception handling |
 
