@@ -133,7 +133,7 @@ class TestArrays < MiniTest::Unit::TestCase
     skip "Waiting to be implemented"
     array = [1,6,3,9,1,1,2,3]
     new_array = array # make the new array equal to array, but reversed
-    assert_equal([3, 2, 1, 1, 9, 3, 6, 1], array.reverse)    
+    assert_equal([3, 2, 1, 1, 9, 3, 6, 1], new_array)    
   end 
 
   # Use the the array.sort & array.reverse methods to complete this test
@@ -143,7 +143,7 @@ class TestArrays < MiniTest::Unit::TestCase
     skip "Waiting to be implemented"
     array = [1,6,3,9,1,1,2,3]
     new_array = array # make the new array equal to array, but in deceding order
-    assert_equal([9, 6, 3, 3, 2, 1, 1, 1], array.sort.reverse)    
+    assert_equal([9, 6, 3, 3, 2, 1, 1, 1], new_array)    
   end 
 
   # Count the number of even numbers in the list
