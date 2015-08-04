@@ -119,7 +119,7 @@ To do this follow these steps:
 * Go into the homework folder
 * Run the tests with ```ruby account_test``` - you should see one failure
 * Make that test pass by making the account class throw an exception if the withdraw method is called with more then the balance
-* Open main_har_coded.rb and follow the instructions
+* Open main_hard_coded.rb and follow the instructions
 * Open main_interactive.rb and follow the instructions
 * Ask on slack if you get stuck
 * Let us know on slack once you have completed and pushed your changes to GitHub
