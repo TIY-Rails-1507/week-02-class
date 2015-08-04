@@ -1,7 +1,8 @@
 # Week 2
 
 Slack Channel - https://tiy-rails-1507.slack.com/messages/general/
-[Homework from Monday](## Homework from Monday)
+
+[Homework from Monday](#homework_monday)
 
 ## Monday
 ### Rough plan for Monday
@@ -36,7 +37,7 @@ Slack Channel - https://tiy-rails-1507.slack.com/messages/general/
 | Recap of coursework from week 1 - look in this repo for solutions |
 | Exception handling |
 
-See section below: [Homework from Monday](## Homework from Monday)
+See [Homework from Monday](#homework_monday)
 
 
 ### 1. A bit of Git
@@ -146,7 +147,8 @@ To do this follow these steps:
 
 5.4. Create a list of 5 random numbers, from 1 - 10 (inclusive of 1, exclusive of 10). Ask the user to try and guess a number that is in the list.
 
-## Homework from Monday
+
+## <a name="homework_monday"></a>Homework from Monday
 General Ruby
 * Complete The Ruby Monk Primer - https://rubymonk.com/learning/books/1-ruby-primer
 
