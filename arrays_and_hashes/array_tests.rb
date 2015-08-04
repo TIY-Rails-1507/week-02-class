@@ -228,7 +228,7 @@ class TestArrays < MiniTest::Unit::TestCase
     # perform logic to fill up the hash here
 
     # The hash has the number as the key and quantity as the value
-    # E.g. 1 appears 3 time, 6 appears once ... 
+    # E.g. 1 appears 3 times, 6 appears once ... 
     expected_hash = { 1 => 3, 6 => 1, 3 => 2, 9 => 1, 2 => 1, 3 => 2 }
     assert_equal(expected_hash, hash) 
   end 
