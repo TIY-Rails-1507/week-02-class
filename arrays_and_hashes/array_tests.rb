@@ -142,7 +142,7 @@ class TestArrays < MiniTest::Unit::TestCase
   def test_create_a_new_array_which_is_the_old_array_sorted_descending
     skip "Waiting to be implemented"
     array = [1,6,3,9,1,1,2,3]
-    new_array = array # make the new array equal to array, but in deceding order
+    new_array = array # make the new array equal to array, but in descending order
     assert_equal([9, 6, 3, 3, 2, 1, 1, 1], new_array)    
   end 
 
