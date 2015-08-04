@@ -222,10 +222,23 @@ class TestArrays < MiniTest::Unit::TestCase
     hash["abc"] = 1
     hash["xyz"] = 2
         
-    assert_equal(hash["abc"], 1) 
-    assert_equal(hash["xyz"], 2) 
+    assert_equal(1, hash["abc"]) 
+    assert_equal(2, hash["xyz"]) 
   end 
 
+  # Test get total number of evens and odds and store them in a hash
+  def test_total_even_and_odd_stored_in_a_hash
+    skip "Waiting to be implemented"
+    array = [1,6,3,9,1,1,2,3] 
+    hash = {}
+
+    # perform logic to fill up the hash here
+
+    # The hash has even or odd as the key and amount as the value
+    # E.g. even - 2, odd - 6     
+    assert_equal(2, hash["even"]) 
+    assert_equal(6, hash["odd"]) 
+  end 
 
   # Count the number of times each number appears in the list
   # The result should be stored in a hash
