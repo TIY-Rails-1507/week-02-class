@@ -216,6 +216,16 @@ class TestArrays < MiniTest::Unit::TestCase
     # write the rest of this test before implementing the logic
   end 
 
+  # Test setting and getting values from a hash
+  def test_setting_and_getting_values_from_a_hash
+    hash = {} # or hash = Hash.new
+    hash["abc"] = 1
+    hash["xyz"] = 2
+        
+    assert_equal(hash["abc"], 1) 
+    assert_equal(hash["xyz"], 2) 
+  end 
+
 
   # Count the number of times each number appears in the list
   # The result should be stored in a hash
