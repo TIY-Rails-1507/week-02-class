@@ -203,7 +203,7 @@ class TestArrays < MiniTest::Unit::TestCase
     assert_equal(9, max) 
   end 
 
-  # Find the maximum number in the list  
+  # Find the smallest number in the list  
   def test_find_the_smallest_number_in_a_list
     skip "Waiting to be implemented"
     # write this test and implement the logic
