@@ -95,9 +95,9 @@ class TestArrays < MiniTest::Unit::TestCase
     array = [1,6,3,9,1,1,2,3]
     new_array = []
 
-    # make this block return true for odd numbers and false for even numbers
+    
     new_array = array.select do | number |
-        
+        # make this block return true for odd numbers and false for even numbers
       end    
     assert_equal([1,3,9,1,1,3], new_array)    
   end  
@@ -161,7 +161,7 @@ class TestArrays < MiniTest::Unit::TestCase
     skip "Waiting to be implemented"
     array = [1,6,3,9,1,1,2,3]
     new_array = array.map { | number| number * 3 } # Fix this so that numbers are doubled not trippled
-    assert_equal([3, 18, 9, 27, 3, 3, 6, 9], new_array)    
+    assert_equal([2, 12, 6, 18, 2, 2, 4, 6], new_array)    
   end 
 
   # Use the the array.map method to complete this test
