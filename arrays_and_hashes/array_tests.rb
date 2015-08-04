@@ -3,7 +3,7 @@ require 'minitest/autorun'
 class TestArrays < MiniTest::Unit::TestCase
     
   def test_an_array_is_created_empty
-  	array = Array.new()
+    array = Array.new()
     assert_equal(0, array.size)
     assert(array.empty?)
   end
