@@ -1,6 +1,7 @@
 # Week 2
 
 Slack Channel - https://tiy-rails-1507.slack.com/messages/general/
+[Homework from Monday](## Homework from Monday)
 
 ## Monday
 ### Rough plan for Monday
@@ -35,7 +36,7 @@ Slack Channel - https://tiy-rails-1507.slack.com/messages/general/
 | Recap of coursework from week 1 - look in this repo for solutions |
 | Exception handling |
 
-See section below: Homework from Monday
+See section below: [Homework from Monday](## Homework from Monday)
 
 
 ### 1. A bit of Git
