@@ -37,7 +37,7 @@ Slack Channel - https://tiy-rails-1507.slack.com/messages/general/
 | Recap of coursework from week 1 - look in this repo for solutions |
 | Exception handling |
 
-See [Homework from Monday](#homework_monday)
+[Homework from Monday](#homework_monday)
 
 
 ### 1. A bit of Git
