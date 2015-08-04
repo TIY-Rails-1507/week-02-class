@@ -154,6 +154,16 @@ class TestArrays < MiniTest::Unit::TestCase
     assert_equal(2, count_of_even_numbers)    
   end 
 
+  # Verify that the list contains a number
+  # Docs: http://ruby-doc.org/core-2.2.0/Array.html#method-i-include-3F
+  def test_that_the_list_contains_a_number
+    skip "Waiting to be implemented"
+    array = [1,6,3,9,1,1,2,3]
+    number = 9
+    included = false # replace false with the logic to check if 'number' is in the 'array'  
+    assert(included)    
+  end 
+
   # Use the the array.map method to complete this test
   # Map creates a new array containing the values returned by the block
   # Docs: http://ruby-doc.org/core-2.2.0/Array.html#method-i-map
@@ -175,11 +185,52 @@ class TestArrays < MiniTest::Unit::TestCase
     # write the rest of this test before implementing the logic
   end 
 
+  # Use the the array.count method to complete this test
+  # Docs: http://ruby-doc.org/core-2.2.0/Array.html#method-i-count
+  def test_count_the_number_of_1s_in_the_list
+    skip "Waiting to be implemented"
+    # write a test that uses the array.count method
+    # to check that there are 3 '1s' in the list
+    array = [1,6,3,9,1,1,2,3] 
+
+  end 
+
+  # Find the maximum number in the list  
+  def test_find_the_largest_number_in_a_list
+    skip "Waiting to be implemented"
+    array = [1,6,3,9,1,1,2,3] 
+    max = 0 # replace 0 with the logic to find the largest number
+    assert_equal(9, max) 
+  end 
+
+  # Find the maximum number in the list  
+  def test_find_the_smallest_number_in_a_list
+    skip "Waiting to be implemented"
+    # write this test and implement the logic
+  end 
+
   # Count the number of vowels in the 'input' string
   def test_count_the_number_of_vowels_in_a_string
     skip "Waiting to be implemented"
     input = "Hello world"
     # write the rest of this test before implementing the logic
+  end 
+
+
+  # Count the number of times each number appears in the list
+  # The result should be stored in a hash
+  # The hash has the number as the key and quantity as the value
+  def test_count_the_number_of_time_each_number_appears_in_the_list
+    skip "Waiting to be implemented"
+    array = [1,6,3,9,1,1,2,3] 
+    hash = {}
+
+    # perform logic to fill up the hash here
+
+    # The hash has the number as the key and quantity as the value
+    # E.g. 1 appears 3 time, 6 appears once ... 
+    expected_hash = { 1 => 3, 6 => 1, 3 => 2, 9 => 1, 2 => 1, 3 => 2 }
+    assert_equal(expected_hash, hash) 
   end 
 
 end
